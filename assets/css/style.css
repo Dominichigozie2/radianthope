@@ -25,3 +25,105 @@ html,body{
     font-family: "DM Sans", serif;
     font-size: 14px;
 }
+/* ALL HOME WEBSITE WRAPPER ARE ADDED HERE */
+.all-home-wrapper{
+    width: 100%;
+    height: 100vh;
+}
+/* THIS CODE IS USED FOR THE NAVBAR AREA */
+/* this nav container is what i used to style the padding of all the navbar */
+
+.nav-cont{   /* this is navbar container */
+    width: 100%;
+    height: 60px;
+    background-color: var(--lit-color);
+    display: flex;
+    padding: 20px;  
+    font-weight: bolder;
+}
+ .icon-cont{  /*this is the icon style */
+    flex: 1.5;
+    text-align: left;
+}
+.ul-cont{ /*this is the target link style*/
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+/* this 2 for button */
+.nav-btn{
+    flex: 1.5;
+    text-align: right;
+}
+.nav-btn button{
+    padding: 4px 16px;
+    background-color: var(--blue-color);
+    border-radius: 3px;
+    border: none;
+    color: var(--lit-color-100);
+    font-weight: bolder;
+}
+/* button ends here */
+
+
+/* THIS CODE FOR THE FIRST HEADER PART */
+.header-cont{
+    background: url(../image/H\ Image.jpg );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.header{
+    text-align: center;
+    padding: 4rem;
+    font-size: 35px;
+    color: var(--lit-color-100);
+}
+.header-btn{
+    padding: 6px 25px;
+    font-weight: bolder;
+    background-color: var(--lit-color-100);
+    border: none;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-top-right-radius: 9px;
+    color: var(--cloth-blue-color-100);
+}
+/* THE FIRST HEADER ENDS HERE */
+
+.sec-cont{
+    width: 100%;
+    height: 600px;
+    /* background-color: var(--lit-color); */
+    background-color: black;
+}
+.sec-cont-bg-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 23px;
+    padding-top: 60px;
+}
+.sec-cont-bg-wrapper p{
+    text-align: center;
+    color: var(--lit-color-100);
+    font-weight: bolder;
+}
+.same{
+    background-color: var(--blue-color);
+    padding: 23px 26px;
+    border-radius: 12px;
+}
+.sec-cont-bg-wrapper img{
+    border-radius: 12px;
+}
+.top-p{
+    margin-bottom: 23px;
+}
+.down-p{
+    margin-top: 23px;
+}
+#cont2{
+    background-color: var(--blue-color-100);
+}
